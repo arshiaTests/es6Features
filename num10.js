@@ -1,4 +1,4 @@
-//Rest operator (...):collects multiple values into an array.
+// 7 Rest operator (...):collects multiple values into an array.
 function sum(...nums){
     return nums.reduce((acc , val)=> acc + val , 0)
 }

@@ -1,5 +1,5 @@
-//8 object property shorthand : shorter syntac for object properties. 
-const name = "arshia"
-const age = "25"
-const user = {name , age };
-console.log(user)
+//Rest operator (...):collects multiple values into an array.
+function sum(...nums){
+    return nums.reduce((acc , val)=> acc + val , 0)
+}
+console.log(sum(1,2,3))
