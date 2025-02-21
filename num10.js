@@ -1,5 +1,5 @@
-// 7 Rest operator (...):collects multiple values into an array.
-function sum(...nums){
-    return nums.reduce((acc , val)=> acc + val , 0)
-}
-console.log(sum(1,2,3))
+//10 modules :import & export code 
+export const greet =()=>console.log("hello!");
+import {greet} from "./module.js";
+greet()
+//search for more 
