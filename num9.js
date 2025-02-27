@@ -7,6 +7,18 @@ const books = [
   for (const { title, author } of books) {
     console.log(`${title} by ${author}`);
   }
+  const books = [
+    { title: "Harry Potter", author: "J.K. Rowling" },
+    { title: "The Alchemist", author: "Paulo Coelho" },
+    { title: "1984", author: "George Orwell" }
+  ];
+  
+  for (const { title, author } of books) {
+    if (author.startsWith("P") || author.startsWith("G")) {
+      console.log(`${title} by ${author}`);
+    }
+  }
+  
 // 1. پیمایش آرایه‌ها
 const numbers = [10, 20, 30, 40, 50];
 console.log("پیمایش آرایه:");
