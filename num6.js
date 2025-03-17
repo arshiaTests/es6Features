@@ -45,5 +45,5 @@ console.log(combinedObject); // { name: "arshia", age: 25, city: "Tehran", count
 
 const str = "hello";
 const chars = [...str];
-console.log(chars); // ['h', 'e', 'l', 'l', 'o']
+console.log(chars); /// ['h', 'e', 'l', 'l', 'o']
 
