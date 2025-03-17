@@ -51,5 +51,5 @@ const userrrr = {
 };
 
 const { naame, aage, address: { city, country } } = userrrr;
-console.log(name, age, city, country); // arshia 25 Tehran Iran
+console.log(name, age, city, country); // arshia 25 Tehran Iran /
 
