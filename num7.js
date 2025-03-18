@@ -53,3 +53,10 @@ const [first, second, ...rest] = [1, 2, 3, 4, 5];
 console.log(first); // 1
 console.log(second); // 2
 console.log(rest); // [3, 4, 5]
+
+//تمرین 7: استفاده از Rest Operator در اشیاء
+
+const user = { name: "arshia", age: 25, city: "Tehran" };
+const { name, ...restt } = user;
+console.log(name); // arshia
+console.log(restt); // { age: 25, city: "Tehran" }
