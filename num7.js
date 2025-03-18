@@ -22,3 +22,8 @@ function findMax(...nums) {
 
 console.log(findMax(1, 5, 3, 9, 2)); // 9
 console.log(findMax(-1, -5, -3));    // -1
+
+//تمرین 3: ترکیب Rest Operator با پارامترهای دیگر
+
+تمرین 3: ترکیب Rest Operator با پارامترهای دیگر
+
