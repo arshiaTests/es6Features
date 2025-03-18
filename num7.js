@@ -38,3 +38,11 @@ const multiply = (multiplier, ...nums) => {
 };
 
 console.log(multiply(2, 1, 2, 3)); // [2, 4, 6]
+
+//تمرین 5: جمع اعداد زوج با Rest Operator
+
+function sumEven(...nums) {
+    return nums.filter(num => num % 2 === 0).reduce((acc, val) => acc + val, 0);
+}
+
+console.log(sumEven(1, 2, 3, 4, 5, 6)); // 12
