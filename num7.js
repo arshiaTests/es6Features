@@ -30,3 +30,11 @@ function greet(greeting, ...names) {
 }
 
 console.log(greet("Hello", "arshia", "ali", "reza")); // Hello, arshia, ali, reza!
+
+//تمرین 4: استفاده از Rest Operator در Arrow Functions
+
+const multiply = (multiplier, ...nums) => {
+    return nums.map(num => num * multiplier);
+};
+
+console.log(multiply(2, 1, 2, 3)); // [2, 4, 6]
