@@ -46,3 +46,10 @@ function sumEven(...nums) {
 }
 
 console.log(sumEven(1, 2, 3, 4, 5, 6)); // 12
+
+//تمرین 6: ترکیب Rest Operator با Destructuring
+
+const [first, second, ...rest] = [1, 2, 3, 4, 5];
+console.log(first); // 1
+console.log(second); // 2
+console.log(rest); // [3, 4, 5]
