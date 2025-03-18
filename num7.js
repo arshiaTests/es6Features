@@ -25,5 +25,8 @@ console.log(findMax(-1, -5, -3));    // -1
 
 //تمرین 3: ترکیب Rest Operator با پارامترهای دیگر
 
-تمرین 3: ترکیب Rest Operator با پارامترهای دیگر
+function greet(greeting, ...names) {
+    return `${greeting}, ${names.join(', ')}!`;
+}
 
+console.log(greet("Hello", "arshia", "ali", "reza")); // Hello, arshia, ali, reza!
