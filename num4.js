@@ -100,3 +100,7 @@ const calculateLoan = (
 console.log(calculateLoan());
 console.log(calculateLoan(20000000));
 console.log(calculateLoan(20000000, 24)); 
+
+//تمرین ترکیبی پیشرفته: سیستم مدیریت سفارشات رستوران
+
+
