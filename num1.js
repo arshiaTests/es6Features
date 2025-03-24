@@ -40,3 +40,16 @@ const settings = {
 };
 settings.theme = "light"; // می‌توان محتوای شیء را تغییر داد
 // settings = {}; // خطا - نمی‌توان خود شیء را دوباره تعریف کرد
+
+//تفاوت‌های کلیدی let و const
+
+// 1. تعریف و تغییر مقدار
+let variableLet = "قابل تغییر";
+variableLet = "مقدار جدید"; // امکان تغییر وجود دارد
+
+const variableConst = "ثابت";
+// variableConst = "مقدار جدید"; // خطا: Assignment to constant variable
+
+// 2. تعریف بدون مقدار اولیه
+let x; // قابل تعریف بدون مقدار
+// const y; // خطا: Missing initializer in const declaration
