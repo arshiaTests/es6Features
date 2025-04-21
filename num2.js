@@ -19,7 +19,7 @@ const getGrade = score => {
     return "C";
 };
 
-/// تمرین ۴: کار با آرایه‌ها
+//// تمرین ۴: کار با آرایه‌ها
 const doubleNumbers = arr => arr.map(num => num * 2);
 const filterPositives = arr => arr.filter(num => num > 0);
 
