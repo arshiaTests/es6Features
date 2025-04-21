@@ -23,7 +23,7 @@ const getGrade = score => {
 const doubleNumbers = arr => arr.map(num => num * 2);
 const filterPositives = arr => arr.filter(num => num > 0);
 
-/// تمرین ۵: توابع با چند خط کد
+//// تمرین ۵: توابع با چند خط کد
 const calculateBMI = (weight, height) => {
     const bmi = weight / (height * height);
     return bmi.toFixed(2);
