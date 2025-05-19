@@ -42,7 +42,7 @@ console.log(calculateBMI(70, 1.75)); // 22.86
 const MAX_BOOKS = 10;
 let currentBooks = 0;
 
-//// 2. تعریف توابع با arrow functions
+///// 2. تعریف توابع با arrow functions
 const addBook = (title, author, year) => {
   if (currentBooks >= MAX_BOOKS) {
     return "ظرفیت کتابخانه تکمیل است";
