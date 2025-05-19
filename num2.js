@@ -29,7 +29,7 @@ const calculateBMI = (weight, height) => {
     return bmi.toFixed(2);
 };
 
-// تست توابع
+/// تست توابع
 console.log(multiply(4, 5));          // 20
 console.log(greeting("آرش"));         // سلام آرش!
 console.log(isAdult(20));            // بزرگسال
