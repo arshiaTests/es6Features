@@ -36,7 +36,7 @@ console.log(isAdult(20));            // بزرگسال
 console.log(doubleNumbers([1,2,3])); // [2,4,6]
 console.log(calculateBMI(70, 1.75)); // 22.86
 
-///تمرین ترکیبی پیشرفته: سیستم مدیریت کتابخانه
+//تمرین ترکیبی پیشرفته: سیستم مدیریت کتابخانه
 
 // 1. تعریف متغیرها با let و const
 const MAX_BOOKS = 10;
