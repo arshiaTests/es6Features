@@ -1,4 +1,4 @@
-/////arrow function : short syntax for functions
+///war//arrow function : short syntax for functions
 const add = (a,b)=> a+b;
 console.log(add(3,6));
 
@@ -11,7 +11,7 @@ const power = (base, exp) => Math.pow(base, exp);
 const greeting = name => `سلام ${name}!`;
 const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-////تمرین ۳: توابع با منطق شرطی
+///تمرین ۳: توابع با منطق شرطی
 const isAdult = age => age >= 18 ? "بزرگسال" : "کودک";
 const getGrade = score => {
     if (score >= 90) return "A";
