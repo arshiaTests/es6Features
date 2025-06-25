@@ -1,3 +1,4 @@
+///
 /////////1 let&const
 let name = "arshia"
 const age = 30;
