@@ -5,7 +5,7 @@ const age = 30;
 ////let : block-scoped variable.
 /////const : immutable variable..
 
-//// تمرین ۱: متغیرهای ساده
+///// تمرین ۱: متغیرهای ساده
 let firstName = "سارا";
 firstName = "مریم"; // امکان تغییر مقدار وجود دارد
 const birthYear = 1990; // مقدار ثابت
