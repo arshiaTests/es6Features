@@ -7,11 +7,11 @@ const multiply = (a, b) => a * b;
 const divide = (a, b) => a / b;
 const power = (base, exp) => Math.pow(base, exp);
 
-///// تمرین ۲: کار با رشته‌ها
+////// تمرین ۲: کار با رشته‌ها
 const greeting = name => `سلام ${name}!`;
 const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-///git///تمرین ۳: توابع با منطق شرطی
+//git///تمرین ۳: توابع با منطق شرطی
 const isAdult = age => age >= 18 ? "بزرگسال" : "کودک";
 const getGrade = score => {
     if (score >= 90) return "A";
