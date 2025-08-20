@@ -11,7 +11,7 @@ const power = (base, exp) => Math.pow(base, exp);
 const greeting = name => `سلام ${name}!`;
 const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-////git///تمرین ۳: توابع با منطق شرطی
+/////git///تمرین ۳: توابع با منطق شرطی
 const isAdult = age => age >= 18 ? "بزرگسال" : "کودک";
 const getGrade = score => {
     if (score >= 90) return "A";
