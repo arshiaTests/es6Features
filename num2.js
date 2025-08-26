@@ -7,7 +7,7 @@ const multiply = (a, b) => a * b;
 const divide = (a, b) => a / b;
 const power = (base, exp) => Math.pow(base, exp);
 
-// تمرین ۲: کار با رشته‌ها
+///////////// تمرین ۲: کار با رشته‌ها
 const greeting = name => `سلام ${name}!`;
 const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
