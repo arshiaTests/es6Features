@@ -10,6 +10,7 @@ const power = (base, exp) => Math.pow(base, exp);
 //تمرین ۲: کار با رشته‌ها
 const greeting = name => `سلام ${name}!`;
 const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
+//////////////console.log(greeting("علی"));
 
 /////git///تمرین ۳: توابع با منطق شرطی
 const isAdult = age => age >= 18 ? "بزرگسال" : "کودک";
