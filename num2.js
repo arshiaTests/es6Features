@@ -2,12 +2,12 @@
 const add = (a,b)=> a+b;
 console.log(add(3,6));
 
-/////////////تمرین ۱: توابع ریاضی ساده
+//تمرین ۱: توابع ریاضی ساده
 const multiply = (a, b) => a * b;
 const divide = (a, b) => a / b;
 const power = (base, exp) => Math.pow(base, exp);
 
-//تمرین ۲: کار با رشته‌ها
+/////////////تمرین ۲: کار با رشته‌ها
 const greeting = name => `سلام ${name}!`;
 const fullName = (firstName, lastName) => `${firstName} ${lastName}`;
 //////////////console.log(greeting("علی"));
