@@ -1,51 +1,144 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>survey form</title>
+  <meta charset="UTF-8" />
+  <title>Playing Cards – Flexbox Practice</title>
+
+  <style>
+    /*
+    ─────────────────────────────
+    بخش CSS – راهنمای تمرین
+    ─────────────────────────────
+    */
+
+    /*
+    تمرین ۱:
+    یک selector با id="playing-cards" بساز.
+
+    نکات مهم:
+    - این المنت باید فلکس کانتینر باشد
+    - کارت‌ها باید وسط صفحه قرار بگیرند
+    - کارت‌ها باید قابلیت رفتن به خط بعدی داشته باشند
+    - فاصله بین کارت‌ها باید دقیقاً 20px باشد
+    */
+
+
+
+    /*
+    تمرین ۲:
+    یک selector برای کلاس card بساز.
+
+    نکات مهم:
+    - هر کارت باید width داشته باشد
+    - هر کارت باید height داشته باشد
+    - کارت باید فلکس باشد
+    - فاصله آیتم‌های داخل کارت با space-between تنظیم شود
+    */
+
+
+
+    /*
+    تمرین ۳:
+    selector مربوط به کلاس left را بنویس.
+
+    نکات مهم:
+    - از align-self استفاده کن
+    - این بخش باید در ابتدای کارت قرار بگیرد
+    - به align-items کاری نداشته باش
+    */
+
+
+
+    /*
+    تمرین ۴:
+    selector مربوط به کلاس middle را بنویس.
+
+    نکات مهم:
+    - این بخش باید وسط کارت قرار بگیرد
+    - خودش یک فلکس کانتینر است
+    - آیتم‌های داخلش باید عمودی باشند
+    */
+
+
+
+    /*
+    تمرین ۵:
+    selector مربوط به کلاس right را بنویس.
+
+    نکات مهم:
+    - از align-self استفاده کن
+    - این بخش باید انتهای کارت قرار بگیرد
+    */
+
+  </style>
 </head>
 
 <body>
-    <h1 id="title">developer </h1>
-    <p id="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque pariatur sit in accusantium
-        aspernatur, et odit, illum assumenda, alias minima corporis dignissimos. A fugiat nisi, enim vel minima amet
-        tempora?</p>
-    <form action="" id="survey-form">
-        <label for="text" id="name-label">Name</label>
-        <input type="text" id="name" placeholder="enter your name" required>
-        <label for="email" id="email-label">email</label>
-        <input type="email" id="email" placeholder="enter your email" required>
-        <label for="number" id="number-label">age</label>
-        <input id="number" type="number" min="18" max="60" placeholder="Enter your age" />
 
-        <select id="dropdown">
-            <option value="">select your role</option>
-            <option value="student">student</option>
-            <option value="developer">developer</option>
-        </select>
-        <p>Would you recommend us?</p>
-        <label>
-            <input type="radio" name="recommend" value="yes" />
-            Yes
-        </label>
-        <label>
-            <input type="radio" name="recommend" value="no" />
-            No
-        </label>
-        <p>What do you like?</p>
-        <label>
-            <input type="checkbox" value="frontend" />
-            Front-end
-        </label>
-        <label>
-            <input type="checkbox" value="backend" />
-            Back-end
-        </label>
-        <textarea placeholder="Additional comments..."></textarea>
-        <button id="submit" type="submit">Submit</button>
+  <!--
+  ─────────────────────────────
+  بخش HTML – راهنمای تمرین
+  ─────────────────────────────
+  -->
 
-    </form>
+  <!--
+  تمرین ۶:
+  یک تگ main بساز.
+
+  نکات مهم:
+  - حتماً از تگ main استفاده کن
+  - id آن باید دقیقاً "playing-cards" باشد
+  -->
+
+
+
+  <!--
+  تمرین ۷:
+  داخل main حداقل ۳ کارت بساز.
+
+  نکات مهم:
+  - هر کارت یک div با کلاس card است
+  - کارت‌ها باید فرزند مستقیم main باشند
+  -->
+
+
+
+  <!--
+  تمرین ۸:
+  داخل هر کارت دقیقاً ۳ div قرار بده.
+
+  نکات مهم:
+  - div اول class="left"
+  - div دوم class="middle"
+  - div سوم class="right"
+  - ترتیب مهم است
+  -->
+
+
+
+  <!--
+  تمرین ۹:
+  داخل بخش middle محتوای دلخواه قرار بده.
+
+  نکات پیشنهادی:
+  - می‌توانی از ♠ ♥ ♦ ♣ استفاده کنی
+  - می‌توانی عدد یا حرف کارت را نمایش بدهی
+  - تعداد آیتم‌ها مهم نیست
+  -->
+
+
+
+  <!--
+  تمرین ۱۰:
+  کدت را بررسی کن قبل از Run Tests.
+
+  چک‌لیست:
+  □ نام کلاس‌ها دقیق باشد
+  □ هر card فقط ۳ فرزند داشته باشد
+  □ gap روی playing-cards باشد نه روی card
+  □ align-self استفاده شده باشد
+  □ flex-direction: column فقط روی middle باشد
+  -->
+
 </body>
-
 </html>
